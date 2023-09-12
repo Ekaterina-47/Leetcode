@@ -1,0 +1,6 @@
+Given two integer arrays nums1 and nums2, return an array of their intersection.
+Each element in the result must appear as many times as it shows in both arrays and you may return the result in any order.
+
+Даны два целочисленных массива nums1 и nums2, нужно вернуть массив их пересечений.
+Каждый элемент результата должен появляться столько раз, сколько он отображается в обоих массивах.
+Можно возвращать результат в любом порядке.

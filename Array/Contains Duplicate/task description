@@ -1,0 +1,5 @@
+Given an integer array nums, return true if any value appears at least twice in the array,
+and return false if every element is distinct.
+
+Учитывая целочисленный массив nums, вернуть true, если какое-либо значение появляется хотя бы дважды,
+false - если каждый элемент различен.

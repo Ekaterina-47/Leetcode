@@ -1,0 +1,5 @@
+Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+You must implement a solution with a linear runtime complexity and use only constant extra space.
+
+Дан непустой массив целых чисел nums, где каждый элемент появляется дважды , кроме одного - нужно найти его.
+Реализовать решение с линейной сложностью времени выполнения и использовать только постоянное дополнительное пространство.

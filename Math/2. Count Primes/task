@@ -1,0 +1,5 @@
+Given an integer n, return the number of prime numbers that are strictly less than n.
+(Hint: use Sieve of Eratosthenes)
+
+Учитывая целое число n, верните количество простых чисел, которые строго меньше n.
+(Подсказка: использовать Решето Эратосфена)

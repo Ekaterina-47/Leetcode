@@ -1,0 +1,31 @@
+Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer (similar to C/C++'s atoi function).
+
+The algorithm for myAtoi(string s) is as follows:
+
+    1. Read in and ignore any leading whitespace.
+    2. Check if the next character (if not already at the end of the string) is '-' or '+'. Read this character in if it is either. This determines if the final result is negative or positive respectively. Assume the result is positive if neither is present.
+    3. Read in next the characters until the next non-digit character or the end of the input is reached. The rest of the string is ignored.
+    4. Convert these digits into an integer (i.e. "123" -> 123, "0032" -> 32). If no digits were read, then the integer is 0. Change the sign as necessary (from step 2).
+    5. If the integer is out of the 32-bit signed integer range [-231, 231 - 1], then clamp the integer so that it remains in the range. Specifically, integers less than -231 should be clamped to -231, and integers greater than 231 - 1 should be clamped to 231 - 1.
+    6. Return the integer as the final result.
+
+Note:
+
+    Only the space character ' ' is considered a whitespace character.
+    Do not ignore any characters other than the leading whitespace or the rest of the string after the digits.
+
+Внедрить myAtoi(string s) - функцию, которая преобразует строку в 32-битное целое число со знаком (аналогично функции atoi в C/C++).
+
+Алгоритм myAtoi(string s):
+    1. Прочтите и игнорируйте любые ведущие пробелы.
+    2. Проверьте, является ли следующий символ (если он еще не находится в конце строки) '-'или '+'. Прочитайте этот символ, если это так. Это определяет, будет ли конечный результат отрицательным или положительным, соответственно. Предположим, что результат положительный, если ни один из знаков не присутствует.
+    3. Считывайте следующие символы до тех пор, пока не будет достигнут следующий нецифровой символ или конец ввода. Остальная часть строки игнорируется.
+    4. Преобразуйте эти цифры в целое число (т.е. "123" -> 123, "0032" -> 32). Если ни одна цифра не была прочитана, то целое число равно 0. При необходимости измените знак (начиная с шага 2).
+    5. Если целое число находится вне диапазона 32-битных целых чисел со знаком [-231, 231 - 1], то зафиксируйте целое число так, чтобы оно оставалось в этом диапазоне. В частности, целые числа меньше -231 следует прижать к -231, а целые числа, которые больше 231 - 1, следует прижать к 231 - 1.
+    6. Верните целое число в качестве окончательного результата.
+
+Примечание:
+
+    Только пробел ' ' считается пробельным символом.
+    Не игнорируйте никакие символы, кроме начального пробела или остальной части строки после цифр.
+

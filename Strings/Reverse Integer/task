@@ -1,0 +1,8 @@
+Given a signed 32-bit integer x, return x with its digits reversed.
+If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
+Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
+
+Дано x -  32-битное целое число со знаком, вернуть его с перевернутыми цифрами .
+Если переворот x приводит к выходу значения за пределы диапазона 32-битных целых чисел со знаком [-231, 231 - 1],
+то вернуть 0.
+Предположим, что среда не позволяет хранить 64-битные целые числа (со знаком или без знака).

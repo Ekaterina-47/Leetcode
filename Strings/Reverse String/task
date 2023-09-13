@@ -1,0 +1,5 @@
+Write a function that reverses a string. The input string is given as an array of characters s.
+You must do this by modifying the input array in-place with O(1) extra memory.
+
+Напишите функцию, которая переворачивает строку. Входная строка задается как массив символов s.
+Вы должны сделать это, изменив входной массив на месте с помощью O(1) дополнительной памяти.

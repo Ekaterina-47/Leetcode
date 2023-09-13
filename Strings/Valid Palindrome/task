@@ -1,0 +1,9 @@
+A phrase is a palindrome if, after converting all uppercase letters into lowercase letters
+and removing all non-alphanumeric characters,
+it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+Given a string s, return true if it is a palindrome, or false otherwise.
+
+Фраза является палиндромом , если после преобразования всех заглавных букв в строчные и удаления всех
+небуквенно-цифровых символов она читается одинаково и вперед, и назад.
+Буквенно-цифровые символы включают буквы и цифры.
+Вернуть true, если s - это палиндром , или false, если это не так .

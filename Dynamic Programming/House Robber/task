@@ -1,0 +1,11 @@
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed,
+the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected
+and it will automatically contact the police if two adjacent houses were broken into on the same night.
+Given an integer array nums representing the amount of money of each house,
+return the maximum amount of money you can rob tonight without alerting the police.
+
+Вы профессиональный грабитель, планирующий грабить дома на улице. В каждом доме спрятана определенная сумма денег,
+единственное ограничение, которое мешает вам ограбить каждый из них, это то, что в соседних домах подключены системы
+безопасности, и они автоматически свяжутся с полицией, если в одну ночь были взломаны два соседних дома.
+Учитывая целочисленный массив nums представляю сумму денег в каждом доме, верните максимальную сумму денег,
+которую вы можете ограбить сегодня вечером, не предупредив полицию.
